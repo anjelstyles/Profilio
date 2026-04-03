@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Chen | Google Internship</title>
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Google Fonts for modern typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Link to external CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Loading Page Animation -->
+    <div class="loader-wrapper">
+        <div class="loader">
+            <div class="loader-logo">AC</div>
+            <div class="loader-bar"></div>
+            <div class="loader-text">Loading Experience...</div>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="content">
+        <!-- Glass Navigation -->
+        <nav class="glass-nav">
+            <div class="nav-container">
+                <div class="nav-brand">
+                    <a href="#home" class="brand-logo">
+                        <span class="logo-initials">AC</span>
+                        <span class="logo-full">Alex Chen</span>
+                    </a>
+                </div>
+
+                <input type="checkbox" id="nav-toggle" class="nav-toggle">
+                <label for="nav-toggle" class="nav-toggle-label">
+                    <div class="toggle-line"></div>
+                    <div class="toggle-line"></div>
+                    <div class="toggle-line"></div>
+                </label>
+
+                <div class="nav-elements">
+                    <ul class="nav-menu">
+                        <li><a href="#home" class="nav-link active" data-text="Home">Home</a></li>
+                        <li><a href="#about" class="nav-link" data-text="About">About</a></li>
+                        <li><a href="#reference" class="nav-link" data-text="References">References</a></li>
+                        <li><a href="#gallery" class="nav-link" data-text="Gallery">Gallery</a></li>
+                        <li><a href="#documents" class="nav-link" data-text="Documents">Documents</a></li>
+                        <li><a href="#contact" class="nav-link" data-text="Contact">Contact</a></li>
+                    </ul>
+
+                    <div class="nav-social">
+                        <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <main>
+            <!-- Hero Landing Page -->
+            <section id="home" class="hero-section">
+                <div class="hero-overlay"></div>
+                <div class="hero-particles">
+                    <span></span><span></span><span></span><span></span><span></span>
+                    <span></span><span></span><span></span><span></span><span></span>
+                </div>
+                
+                <div class="hero-container">
+                    <div class="hero-badge">Google Internship Candidate 2025</div>
+                    <h1 class="hero-title">
+                        <span class="title-line">Alex Chen</span>
+                        <span class="title-line highlight">IT Student & Innovator</span>
+                    </h1>
+                    <div class="hero-id">
+                        <span class="id-badge">STU-2024-012345</span>
+                    </div>
+                    <p class="hero-description">
+                        Building the future through code, cloud, and creativity. 
+                        Seeking to transform ideas into impactful solutions at Google.
+                    </p>
+                    <div class="hero-cta">
+                        <a href="#about" class="cta-primary">Explore My Journey <i class="fas fa-arrow-right"></i></a>
+                        <a href="#contact" class="cta-secondary">Let's Connect</a>
+                    </div>
+                    
+                    <div class="hero-stats">
+                        <div class="hero-stat">
+                            <span class="stat-value">8+</span>
+                            <span class="stat-label">Projects</span>
+                        </div>
+                        <div class="hero-stat">
+                            <span class="stat-value">3.8</span>
+                            <span class="stat-label">GPA</span>
+                        </div>
+                        <div class="hero-stat">
+                            <span class="stat-value">3</span>
+                            <span class="stat-label">Internships</span>
+                        </div>
+                        <div class="hero-stat">
+                            <span class="stat-value">2</span>
+                            <span class="stat-label">Hackathons</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Image Slider - Cinematic Style -->
+            <div class="slider-cinematic">
+                <div class="slider-container">
+                    <input type="radio" name="slider" id="slide1" checked>
+                    <input type="radio" name="slider" id="slide2">
+                    <input type="radio" name="slider" id="slide3">
+                    
+                    <div class="slider-track">
+                        <div class="slider-slide">
+                            <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80" alt="Study Session">
+                            <div class="slide-content">
+                                <span class="slide-tag">Academic Excellence</span>
+                                <h3>Deep Work Sessions</h3>
+                                <p>Advanced Algorithms & Data Structures</p>
+                            </div>
+                        </div>
+                        <div class="slider-slide">
+                            <img src="https://images.unsplash.com/photo-1557429287-b2e26467fc2b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80" alt="Teaching">
+                            <div class="slide-content">
+                                <span class="slide-tag">Community Impact</span>
+                                <h3>Teaching Kids to Code</h3>
+                                <p>Volunteer Instructor at Tech4All</p>
+                            </div>
+                        </div>
+                        <div class="slider-slide">
+                            <img src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80" alt="Conference">
+                            <div class="slide-content">
+                                <span class="slide-tag">Professional Growth</span>
+                                <h3>Google DevFest</h3>
+                                <p>Student Ambassador & Speaker</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="slider-controls">
+                        <label for="slide1" class="control-dot"></label>
+                        <label for="slide2" class="control-dot"></label>
+                        <label for="slide3" class="control-dot"></label>
+                    </div>
+
+                    <div class="slider-arrows">
+                        <label for="slide1" class="arrow prev">&#10094;</label>
+                        <label for="slide2" class="arrow prev">&#10094;</label>
+                        <label for="slide3" class="arrow prev">&#10094;</label>
+                        <label for="slide2" class="arrow next">&#10095;</label>
+                        <label for="slide3" class="arrow next">&#10095;</label>
+                        <label for="slide1" class="arrow next">&#10095;</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <!-- About Excerpt - Floating Card -->
+                <div class="floating-card">
+                    <div class="card-content">
+                        <span class="card-tag">Introduction</span>
+                        <h2>Innovator in the Making</h2>
+                        <p class="card-text">
+                            I'm Alex Chen, a third-year Information Technology student at State University with a burning passion for cloud computing and machine learning. My journey in tech started when I built my first website at 14, and since then, I've been on an unstoppable quest to learn, build, and innovate. I'm seeking a Summer 2025 internship at Google to contribute to projects that impact millions while growing alongside the brightest minds in tech.
+                        </p>
+                        <div class="card-stats-mini">
+                            <div class="mini-stat">
+                                <span class="mini-value">12+</span>
+                                <span class="mini-label">Technologies</span>
+                            </div>
+                            <div class="mini-stat">
+                                <span class="mini-value">500+</span>
+                                <span class="mini-label">Code Hours</span>
+                            </div>
+                            <div class="mini-stat">
+                                <span class="mini-value">∞</span>
+                                <span class="mini-label">Curiosity</span>
+                            </div>
+                        </div>
+                        <a href="#about" class="card-link">Read Full Story <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="card-decoration"></div>
+                </div>
+
+                <!-- Current Courses - 3D Cards -->
+                <div class="courses-3d">
+                    <h2 class="section-title-glitch" data-text="Current Courses">Current Courses</h2>
+                    <div class="courses-grid-3d">
+                        <div class="course-card-3d">
+                            <div class="card-3d-inner">
+                                <div class="card-3d-front">
+                                    <div class="course-icon">
+                                        <i class="fas fa-cloud"></i>
+                                    </div>
+                                    <h3>Cloud Computing</h3>
+                                    <p>CS-401</p>
+                                </div>
+                                <div class="card-3d-back">
+                                    <h4>Prof. Sarah Johnson</h4>
+                                    <p><i class="far fa-calendar"></i> Mon/Wed 10am</p>
+                                    <p><i class="fas fa-map-marker-alt"></i> Tech 205</p>
+                                    <div class="course-progress-3d">
+                                        <div class="progress-ring">75%</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="course-card-3d">
+                            <div class="card-3d-inner">
+                                <div class="card-3d-front">
+                                    <div class="course-icon">
+                                        <i class="fas fa-brain"></i>
+                                    </div>
+                                    <h3>Machine Learning</h3>
+                                    <p>CS-450</p>
+                                </div>
+                                <div class="card-3d-back">
+                                    <h4>Dr. Michael Rodriguez</h4>
+                                    <p><i class="far fa-calendar"></i> Tue/Thu 2pm</p>
+                                    <p><i class="fas fa-map-marker-alt"></i> Science 120</p>
+                                    <div class="course-progress-3d">
+                                        <div class="progress-ring">60%</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="course-card-3d">
+                            <div class="card-3d-inner">
+                                <div class="card-3d-front">
+                                    <div class="course-icon">
+                                        <i class="fas fa-network-wired"></i>
+                                    </div>
+                                    <h3>Distributed Systems</h3>
+                                    <p>CS-430</p>
+                                </div>
+                                <div class="card-3d-back">
+                                    <h4>Prof. Emily Chen</h4>
+                                    <p><i class="far fa-calendar"></i> Mon/Wed 1pm</p>
+                                    <p><i class="fas fa-map-marker-alt"></i> Eng 305</p>
+                                    <div class="course-progress-3d">
+                                        <div class="progress-ring">80%</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Calendar - Hexagon Grid -->
+                <div class="calendar-hex">
+                    <h2 class="section-title-glitch" data-text="Upcoming Events">Upcoming Events</h2>
+                    <div class="hex-grid">
+                        <div class="hex-item sep">
+                            <div class="hex-content">
+                                <span class="hex-month">SEP</span>
+                                <ul class="hex-events">
+                                    <li><span class="event-date">5</span> Midterm Exam</li>
+                                    <li><span class="event-date">10-12</span> Hackathon</li>
+                                    <li><span class="event-date">18</span> Project Due</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="hex-item oct">
+                            <div class="hex-content">
+                                <span class="hex-month">OCT</span>
+                                <ul class="hex-events">
+                                    <li><span class="event-date">3</span> Conference</li>
+                                    <li><span class="event-date">9-13</span> Fall Break</li>
+                                    <li><span class="event-date">17</span> Workshop</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="hex-item nov">
+                            <div class="hex-content">
+                                <span class="hex-month">NOV</span>
+                                <ul class="hex-events">
+                                    <li><span class="event-date">5</span> Project Start</li>
+                                    <li><span class="event-date">12</span> Lab Practical</li>
+                                    <li><span class="event-date">18-22</span> Conference</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="hex-item dec">
+                            <div class="hex-content">
+                                <span class="hex-month">DEC</span>
+                                <ul class="hex-events">
+                                    <li><span class="event-date">2</span> Final Exam</li>
+                                    <li><span class="event-date">5</span> Presentation</li>
+                                    <li><span class="event-date">15</span> Celebration</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonials - Neon Cards -->
+                <div class="testimonials-neon">
+                    <h2 class="section-title-glitch" data-text="Endorsements">Endorsements</h2>
+                    <div class="neon-grid">
+                        <div class="neon-card">
+                            <div class="neon-border"></div>
+                            <div class="neon-content">
+                                <i class="fas fa-quote-left quote-icon"></i>
+                                <p class="neon-quote">Alex has an exceptional ability to grasp complex concepts and explain them to others. He's been a standout in my Cloud Computing class.</p>
+                                <div class="neon-author">
+                                    <img src="https://randomuser.me/api/portraits/women/45.jpg" alt="Prof. Johnson">
+                                    <div>
+                                        <h4>Prof. Sarah Johnson</h4>
+                                        <p>Cloud Computing Instructor</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="neon-card">
+                            <div class="neon-border"></div>
+                            <div class="neon-content">
+                                <i class="fas fa-quote-left quote-icon"></i>
+                                <p class="neon-quote">His internship performance was outstanding. He optimized our deployment process by 30% and was a joy to work with.</p>
+                                <div class="neon-author">
+                                    <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="David Miller">
+                                    <div>
+                                        <h4>David Miller</h4>
+                                        <p>TechStart Solutions</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="neon-card">
+                            <div class="neon-border"></div>
+                            <div class="neon-content">
+                                <i class="fas fa-quote-left quote-icon"></i>
+                                <p class="neon-quote">Two years volunteering, and Alex has never missed a session. His patience with young learners is remarkable.</p>
+                                <div class="neon-author">
+                                    <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Lisa Thompson">
+                                    <div>
+                                        <h4>Lisa Thompson</h4>
+                                        <p>Community Center Director</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- About Section - Split Screen -->
+            <section id="about" class="about-split">
+                <div class="split-left">
+                    <div class="split-content">
+                        <span class="split-tag">My Journey</span>
+                        <h2>Education & Experience</h2>
+                        
+                        <div class="accordion">
+                            <div class="accordion-item">
+                                <input type="checkbox" id="acc1" checked>
+                                <label for="acc1" class="accordion-label">
+                                    <span>🎓 Education</span>
+                                    <i class="fas fa-chevron-down"></i>
+                                </label>
+                                <div class="accordion-content">
+                                    <div class="timeline-vertical">
+                                        <div class="timeline-point">
+                                            <span class="point-year">2022-2026</span>
+                                            <h4>B.Sc. Information Technology</h4>
+                                            <p>State University | GPA: 3.8</p>
+                                        </div>
+                                        <div class="timeline-point">
+                                            <span class="point-year">2018-2022</span>
+                                            <h4>High School Diploma</h4>
+                                            <p>Central High School | Honors</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <input type="checkbox" id="acc2">
+                                <label for="acc2" class="accordion-label">
+                                    <span>💼 Experience</span>
+                                    <i class="fas fa-chevron-down"></i>
+                                </label>
+                                <div class="accordion-content">
+                                    <div class="exp-cards-mini">
+                                        <div class="exp-mini">
+                                            <span class="exp-date">May-Aug 2024</span>
+                                            <h4>Software Engineering Intern</h4>
+                                            <p>TechStart Solutions</p>
+                                        </div>
+                                        <div class="exp-mini">
+                                            <span class="exp-date">Jan-Apr 2024</span>
+                                            <h4>Teaching Assistant</h4>
+                                            <p>State University</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <input type="checkbox" id="acc3">
+                                <label for="acc3" class="accordion-label">
+                                    <span>🏆 Leadership</span>
+                                    <i class="fas fa-chevron-down"></i>
+                                </label>
+                                <div class="accordion-content">
+                                    <div class="leadership-grid-small">
+                                        <div class="leadership-small">
+                                            <i class="fas fa-crown"></i>
+                                            <h4>President</h4>
+                                            <p>Coding Club (2023-Present)</p>
+                                        </div>
+                                        <div class="leadership-small">
+                                            <i class="fas fa-users"></i>
+                                            <h4>Team Lead</h4>
+                                            <p>Google Hackathon 2024</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="interests-cloud">
+                            <span>Cloud Computing</span>
+                            <span>Machine Learning</span>
+                            <span>Open Source</span>
+                            <span>Chess</span>
+                            <span>Photography</span>
+                            <span>Hiking</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="split-right">
+                    <div class="split-image-container">
+                        <img src="https://images.unsplash.com/photo-1531482615712-f0a3c4dcac6e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80" alt="Alex Chen">
+                        <div class="image-particles"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Reference Section - Holographic Cards -->
+            <section id="reference" class="reference-holo">
+                <div class="container">
+                    <h2 class="section-title-glitch" data-text="References">References</h2>
+                    <div class="holo-grid">
+                        <div class="holo-card">
+                            <div class="holo-image">
+                                <img src="https://randomuser.me/api/portraits/women/45.jpg" alt="Prof. Johnson">
+                            </div>
+                            <h3>Prof. Sarah Johnson</h3>
+                            <p class="holo-title">Professor, Cloud Computing</p>
+                            <div class="holo-contact">
+                                <a href="#"><i class="fas fa-envelope"></i> s.johnson@edu</a>
+                                <a href="#"><i class="fas fa-phone"></i> +1 (555) 123-4567</a>
+                            </div>
+                        </div>
+
+                        <div class="holo-card">
+                            <div class="holo-image">
+                                <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="David Miller">
+                            </div>
+                            <h3>David Miller</h3>
+                            <p class="holo-title">Senior Engineer, TechStart</p>
+                            <div class="holo-contact">
+                                <a href="#"><i class="fas fa-envelope"></i> d.miller@techstart</a>
+                                <a href="#"><i class="fas fa-phone"></i> +1 (555) 234-5678</a>
+                            </div>
+                        </div>
+
+                        <div class="holo-card">
+                            <div class="holo-image">
+                                <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Lisa Thompson">
+                            </div>
+                            <h3>Lisa Thompson</h3>
+                            <p class="holo-title">Community Director</p>
+                            <div class="holo-contact">
+                                <a href="#"><i class="fas fa-envelope"></i> l.thompson@community</a>
+                                <a href="#"><i class="fas fa-phone"></i> +1 (555) 345-6789</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Gallery Section - Pop-out Cards -->
+            <section id="gallery" class="gallery-pop">
+                <div class="container">
+                    <h2 class="section-title-glitch" data-text="Moments">Moments</h2>
+                    <div class="pop-gallery">
+                        <div class="pop-item">
+                            <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1471&q=80" alt="Hackathon">
+                            <div class="pop-caption">
+                                <h3>Hackathon Victory</h3>
+                                <p>With my team after winning 2nd place</p>
+                            </div>
+                        </div>
+                        <div class="pop-item">
+                            <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80" alt="Study Group">
+                            <div class="pop-caption">
+                                <h3>Study Session</h3>
+                                <p>Late night with classmates</p>
+                            </div>
+                        </div>
+                        <div class="pop-item">
+                            <img src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80" alt="Teaching">
+                            <div class="pop-caption">
+                                <h3>Teaching Kids</h3>
+                                <p>Community coding workshop</p>
+                            </div>
+                        </div>
+                        <div class="pop-item">
+                            <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80" alt="Conference">
+                            <div class="pop-caption">
+                                <h3>Google DevFest</h3>
+                                <p>Student ambassador meetup</p>
+                            </div>
+                        </div>
+                        <div class="pop-item">
+                            <img src="https://images.unsplash.com/photo-1527529482837-4698179dc6ce?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80" alt="Family">
+                            <div class="pop-caption">
+                                <h3>Family Dinner</h3>
+                                <p>Sister's graduation celebration</p>
+                            </div>
+                        </div>
+                        <div class="pop-item">
+                            <img src="https://images.unsplash.com/photo-1543269664-7eef42226a21?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80" alt="Friends">
+                            <div class="pop-caption">
+                                <h3>Weekend Hike</h3>
+                                <p>With college friends</p>
+                            </div>
+                        </div>
+                        <div class="pop-item">
+                            <img src="https://images.unsplash.com/photo-1515187029135-18ee286d815b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80" alt="Workshop">
+                            <div class="pop-caption">
+                                <h3>Workshop</h3>
+                                <p>Leading a Python workshop</p>
+                            </div>
+                        </div>
+                        <div class="pop-item">
+                            <img src="https://images.unsplash.com/photo-1531482615712-f0a3c4dcac6e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80" alt="Graduation">
+                            <div class="pop-caption">
+                                <h3>Graduation</h3>
+                                <p>High school graduation day</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Documents Section - Folded Cards -->
+            <section id="documents" class="documents-fold">
+                <div class="container">
+                    <h2 class="section-title-glitch" data-text="Documents">Documents</h2>
+                    <div class="fold-grid">
+                        <div class="fold-card">
+                            <div class="fold-icon">
+                                <i class="fas fa-file-pdf"></i>
+                            </div>
+                            <h3>AWS Cloud Practitioner</h3>
+                            <p>Certification - Mar 2024</p>
+                            <a href="#" class="fold-download">Download <i class="fas fa-download"></i></a>
+                        </div>
+                        <div class="fold-card">
+                            <div class="fold-icon">
+                                <i class="fas fa-file-pdf"></i>
+                            </div>
+                            <h3>Google IT Support</h3>
+                            <p>Coursera - Jan 2024</p>
+                            <a href="#" class="fold-download">Download <i class="fas fa-download"></i></a>
+                        </div>
+                        <div class="fold-card">
+                            <div class="fold-icon">
+                                <i class="fas fa-file-alt"></i>
+                            </div>
+                            <h3>Academic Transcript</h3>
+                            <p>GPA: 3.8/4.0</p>
+                            <a href="#" class="fold-download">Download <i class="fas fa-download"></i></a>
+                        </div>
+                        <div class="fold-card">
+                            <div class="fold-icon">
+                                <i class="fas fa-file-pdf"></i>
+                            </div>
+                            <h3>Python Certification</h3>
+                            <p>PCAP Certified</p>
+                            <a href="#" class="fold-download">Download <i class="fas fa-download"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Section - Cyberpunk Form -->
+            <section id="contact" class="contact-cyber">
+                <div class="container">
+                    <h2 class="section-title-glitch" data-text="Connect">Connect</h2>
+                    
+                    <div class="cyber-wrapper">
+                        <div class="cyber-info">
+                            <h3>Let's create something amazing</h3>
+                            <p>I'm actively seeking internship opportunities at Google and would love to hear from you.</p>
+                            
+                            <div class="cyber-details">
+                                <div class="cyber-detail">
+                                    <div class="detail-icon">
+                                        <i class="fas fa-envelope"></i>
+                                    </div>
+                                    <div>
+                                        <h4>Email</h4>
+                                        <a href="mailto:alex.chen@student.edu">alex.chen@student.edu</a>
+                                    </div>
+                                </div>
+                                <div class="cyber-detail">
+                                    <div class="detail-icon">
+                                        <i class="fas fa-phone-alt"></i>
+                                    </div>
+                                    <div>
+                                        <h4>Phone</h4>
+                                        <a href="tel:+15551234567">+1 (555) 123-4567</a>
+                                    </div>
+                                </div>
+                                <div class="cyber-detail">
+                                    <div class="detail-icon">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                    </div>
+                                    <div>
+                                        <h4>Location</h4>
+                                        <p>State University, Silicon Valley</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="cyber-social">
+                                <a href="#" class="cyber-social-icon"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#" class="cyber-social-icon"><i class="fab fa-github"></i></a>
+                                <a href="#" class="cyber-social-icon"><i class="fab fa-twitter"></i></a>
+                                <a href="#" class="cyber-social-icon"><i class="fab fa-instagram"></i></a>
+                                <a href="#" class="cyber-social-icon"><i class="fab fa-youtube"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="cyber-form">
+                            <form action="#" method="post" class="neon-form">
+                                <div class="input-group">
+                                    <input type="text" id="name" required>
+                                    <span class="input-highlight"></span>
+                                    <label for="name">Your Name</label>
+                                </div>
+                                
+                                <div class="input-group">
+                                    <input type="email" id="email" required>
+                                    <span class="input-highlight"></span>
+                                    <label for="email">Email Address</label>
+                                </div>
+                                
+                                <div class="input-row">
+                                    <div class="input-group half">
+                                        <input type="text" id="subject" required>
+                                        <span class="input-highlight"></span>
+                                        <label for="subject">Subject</label>
+                                    </div>
+                                    
+                                    <div class="input-group half">
+                                        <input type="tel" id="phone">
+                                        <span class="input-highlight"></span>
+                                        <label for="phone">Phone</label>
+                                    </div>
+                                </div>
+                                
+                                <div class="input-group">
+                                    <textarea id="message" rows="5" required></textarea>
+                                    <span class="input-highlight"></span>
+                                    <label for="message">Your Message</label>
+                                </div>
+                                
+                                <div class="form-actions-cyber">
+                                    <button type="submit" class="cyber-btn submit">
+                                        <span>Send Message</span>
+                                        <i class="fas fa-paper-plane"></i>
+                                    </button>
+                                    <button type="reset" class="cyber-btn reset">
+                                        <span>Reset</span>
+                                        <i class="fas fa-undo"></i>
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Cyber Footer -->
+        <footer class="footer-cyber">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-logo-cyber">AC</div>
+                    <p>Alex Chen<br>IT Student & Innovator</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Navigate</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#reference">References</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#documents">Documents</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#">Resume</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Connect</h4>
+                    <div class="footer-social-cyber">
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom-cyber">
+                <p>© 2025 Alex Chen | STU-2024-012345</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
